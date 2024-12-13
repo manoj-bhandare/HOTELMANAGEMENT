@@ -27,21 +27,27 @@ o	Email or SMS alerts for bookings and updates.
 Installation
 Steps
 1.	Clone the Repository:
-2.	git clone https://github.com/your-username/hotel-management-app.git
-cd hotel-management-app
-3.	Frontend Setup:
-cd frontend
-npm install
-npm start
-4.	Backend Setup:
-o	Navigate to the backend directory:
-cd backend
-o	Update the application.properties file with your MySQL and AWS configurations.
-o	Build and run the Spring Boot application:
-./mvnw spring-boot:run
-5.	Database Setup:
-o	Create a MySQL database named hotel_management.
-o	Import the provided SQL schema and seed data:
+   
+   git clone https://github.com/your-username/hotel-management-app.git
+   
+     cd hotel-management-app
+2.Frontend Setup:
+
+      cd frontend
+      npm install
+        npm start
+3.Backend Setup:
+    Navigate to the backend directory:
+       cd backend
+       Update the application.properties file with your MySQL and AWS configurations.
+      
+       Build and run the Spring Boot application:
+      ./mvnw spring-boot:run
+4.Database Setup:
+
+ Create a MySQL database named hotel_management.
+
+ Import the provided SQL schema and seed data:
 Usage
 1.	Open the frontend in a browser: http://localhost:3000.
 2.	Login or register as a new user.
